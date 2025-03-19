@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>ITW - tvorba webových stránek</title>
+    <script src="https://kit.fontawesome.com/06a6cb57ac.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+</head>
+<body>
+<!-- Header section-->
+<div id="header-section">
+    <!-- Header -->
+    <header>
+        <h1>
+            <a href="#">ITW</a>
+            Tvorba webových stránek
+        </h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul class="navbar-nav closed">
+            <li><a href="#about"><i class="fa-solid fa-house-chimney"></i><span> Index</span></a></li>
+            <li><a href="#lectures"><i class="fa-solid fa-circle-info"></i><span> O předmětu</span></a></li>
+            <li><a href="#results"><i class="fa-solid fa-tv"></i><span> Přednášky</span></a></li>
+            <li><a href="#exercises"><i class="fa-solid fa-face-grin-beam-sweat"></i><span> Cvičení</span></a></li>
+            <li><a href="#contact"><i class="fa-solid fa-hammer"></i><span> Hodnocení</span></a></li>
+            <li><a href="#subject"><i class="fa-solid fa-envelope"></i><span> Kontakt</span></a></li>
+        </ul>
+        <i class="fa-solid fa-bars"></i>
+    </nav>
+</div>
+
+<!-- Main -->
+<main>
+    <!-- About section -->
+    <div id="about-wrapper">
+        <!-- About -->
+        <section id="about">
+            <h2>O předmětu ITW - tvorba webových stránek</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur <b> adipisicing elit </b>.
+                Quos sed ex eligendi facilis earum perspiciatis assumenda aliquam,
+                ullam fugiat. Expedita voluptates ad aliquid nesciunt praesentium
+                fugiat sequi facere blanditiis
+                <b> labore! Consequatur reiciendis ullam </b> accusamus commodi
+                possimus, provident quaerat aliquid nesciunt modi natus voluptatum
+                blanditiis et <b> eligendi .</b> Ex hic ipsum, blanditiis unde neque
+                consectetur harum! Animi accusamus sunt ut corrupti cupiditate.
+                Dolorum tenetur voluptatibus, quisquam sit dolor aliquam nemo,
+                exercitationem accusantium quo officia
+                <b> dolorem vero quas, tempora enim? </b> At quasi, laboriosam
+                praesentium dolorum numquam deleniti mollitia inventore. Molestiae
+                nisi mollitia cum! Reiciendis maiores quos assumenda ex commodi quis
+                laboriosam nobis, cum aliquid dolor repudiandae similique rerum
+                maxime, vitae necessitatibus, adipisci culpa natus
+                <b> omnis </b> incidunt architecto asperiores molestias minima?
+                Repellat, recusandae fugiat! Minus tempore maxime illo quia eligendi
+                odit sint, minima est asperiores repellat. Enim, quibusdam
+                veritatis. Porro <b> quod </b> non, hic autem quo assumenda, facilis
+                natus vel expedita, iure tenetur amet unde.
+            </p>
+        </section>
+    </div>
+
+    <!-- Main section -->
+    <div id="main-wrapper">
+        <div id="main-left">
+            <!-- Lectures -->
+            <section id="lectures">
+                <h2>Přednášky</h2>
+
+                <div id="lecture-grid">
+                    <!-- Lecture 1 -->
+                    <div class="lecture-content">
+                        <img src="assets/images/icons/icon1.gif" alt="random pic">
+                        <div>
+                            <a href="#">HTML a HTML5</a>
+                            <div class="horizontal-line"></div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Lecture 2 -->
+                    <div class="lecture-content">
+                        <img src="assets/images/icons/icon4.gif" alt="random pic">
+                        <div>
+                            <a href="#">CSS a CSS3</a>
+                            <div class="horizontal-line"></div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Lecture 3 -->
+                    <div class="lecture-content">
+                        <img src="assets/images/icons/icon3.gif" alt="random pic">
+                        <div>
+                            <a href="#">Tvorba Layoutů</a>
+                            <div class="horizontal-line"></div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Lecture 4 -->
+                    <div class="lecture-content">
+                        <img src="assets/images/icons/icon2.gif" alt="random pic">
+                        <div>
+                            <a href="#">Optimalizace</a>
+                            <div class="horizontal-line"></div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results overview -->
+            <section id="results">
+                <h2>Přehled výsledků</h2>
+
+                <!-- Table -->
+                <table>
+                    <!-- Table header -->
+                    <thead>
+                    <tr>
+                        <th rowspan="3">Jméno</th>
+                        <th colspan="6">Body</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">2010</th>
+                        <th colspan="2">2011</th>
+                        <th colspan="2">2012</th>
+                    </tr>
+                    <tr>
+                        <th>Půlsem.</th>
+                        <th>Zk.</th>
+                        <th>Půlsem.</th>
+                        <th>Zk.</th>
+                        <th>Půlsem.</th>
+                        <th>Zk.</th>
+                    </tr>
+                    </thead>
+                    <!-- Table body -->
+                    <tbody>
+                    <tr>
+                        <td>Jan Novák</td>
+                        <td>22</td>
+                        <td>78</td>
+                        <td>23</td>
+                        <td>80</td>
+                        <td>10</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Zuzana Černá</td>
+                        <td>15</td>
+                        <td>50</td>
+                        <td>20</td>
+                        <td>80</td>
+                        <td>25</td>
+                        <td>100</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <div id="main-right">
+            <!-- Exercises -->
+            <section id="exercises">
+                <h2>Cvičení</h2>
+
+                <!-- Exercise 1 -->
+                <div>
+                    <a href="#">HTTP a DNS</a>
+                    <div class="exercises-content">
+                        <img src="assets/images/icons/news_icon.gif" alt="random pic">
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="horizontal-line"></div>
+                </div>
+
+                <!-- Exercise 2 -->
+                <div>
+                    <a href="#"> Základy HTML</a>
+                    <div class="exercises-content">
+                        <img src="assets/images/icons/news_icon.gif" alt="random pic">
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="horizontal-line"></div>
+                </div>
+
+                <!-- Exercise 3 -->
+                <div>
+                    <a href="#">Základy CSS</a>
+                    <div class="exercises-content">
+                        <img src="assets/images/icons/news_icon.gif" alt="random pic">
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="horizontal-line"></div>
+                </div>
+
+                <!-- Exercise 4 -->
+                <div>
+                    <a href="#">CSS a Javascript</a>
+                    <div class="exercises-content">
+                        <img src="assets/images/icons/news_icon.gif" alt="random pic">
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="horizontal-line"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    <div class="footer-wrapper">
+        <div id="footer-content">
+            <!-- Contact us -->
+            <section id="contact">
+                <h2>Kontaktujte nás</h2>
+                <div>
+                    <!-- Guarantor -->
+                    <div class="person-info">
+                        <div>Garant:</div>
+                        <div>
+                            <a href="mailto:itw-garant@fit.vutbr.cz"
+                            >itw-garant@fit.vutbr.cz</a
+                            >
+                        </div>
+                    </div>
+                    <!-- Lecturer -->
+                    <div class="person-info">
+                        <div>Přednášející:</div>
+                        <div>
+                            <a href="mailto:itw-prednasejici@fit.vutbr.cz"
+                            >itw-prednasejici@fit.vutbr.cz</a
+                            >
+                        </div>
+                    </div>
+                    <!-- Teacher -->
+                    <div class="person-info">
+                        <div>Cvičící:</div>
+                        <div>
+                            <a href="mailto:itw-cvicici@fit.vutbr.cz"
+                            >itw-cvicici@fit.vutbr.cz</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <b>All Rights Reserved 2013 ITW team</b>
+            </section>
+            <!-- Related subjects -->
+            <footer id="subject">
+                <h2>Související předměty</h2>
+                <ul>
+                    <li><a href="#">Informační systémy</a></li>
+                    <li><a href="#">Pokročilé informační systémy</a></li>
+                    <li><a href="#">Analýza informačních systémů</a></li>
+                    <li><a href="#">Skriptovací jazyky</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</main>
+</body>
+</html>
